@@ -1,0 +1,44 @@
+.namespace MyGuardian {
+  .label rasterPrecalc=$1000 {
+  }
+  .label startup=$3000 {
+    .label looppi=$3069
+  }
+  .label irqSpriteLine2SetupLine=$3300 {
+    .label rx=$336d
+    .label ry=$336f
+    .label ra=$336b
+  }
+  .label irqStart=$3100 {
+    .label rx=$313d
+    .label ry=$313f
+    .label ra=$313b
+  }
+  .label irqBackgroundColorSetupLine=$3400 {
+    .label rx=$34a9
+    .label ry=$34ab
+    .label ra=$34a7
+  }
+  .label irqSpriteLine1SetupLine=$3200 {
+    .label rx=$32a9
+    .label ry=$32ab
+    .label ra=$32a7
+  }
+  .label irqBackgroundColorRestoreLine=$3700 {
+    .label rx=$377f
+    .label ry=$3781
+    .label ra=$377d
+  }
+  .label copyColorMemory=$306c {
+  }
+  .label irqSpriteLine4SetupLine=$3600 {
+    .label rx=$3675
+    .label ry=$3677
+    .label ra=$3673
+  }
+  .label irqSpriteLine3SetupLine=$3500 {
+    .label rx=$3589
+    .label ry=$358b
+    .label ra=$3587
+  }
+}
